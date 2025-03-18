@@ -3,118 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Интернет-кафе</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Интернет-магазин</title>
 </head>
 <body>
-    <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="text-center text-white">Видео курс по вёрстке для начинающих HTML & CSS</h1>
-                    <div class="itd_play" data-bs-toggle="modal" data-bs-target="#myModal">
-                        <div class="itd_triangle"></div>
-                    </div>
-                    <a href="#footer" class="btn btn-itd btn-lg text-uppercase">Приобрести</a>
-                </div>
+            <a class="navbar-brand" href="#">Мое Кафе</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Меню</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Галерея</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
+                </ul>
             </div>
+        </div>
+    </nav>
+
+    <header class="aman d-flex align-items-center"> 
+        <div class="container text-center text-white">
+            <h1>Добро пожаловать в кафе!</h1>
+            <p>Вкусно. Уютно. Только для вас.</p>
+            <a href="#contant" class="btn btn-primary btn-lg mt-3">Забронировать стол</a>
         </div>
     </header>
 
-    <section class="about">
+    <section id="about" class="py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="text-center text-uppercase color1 mb-5">О курсе</h2>
-                </div>
-            </div> 
-            <div class="row">
-                <div class="col-xl-4 col-md-6 col-sm-12">
-                    <div class="itd_circle"><i class="icon-list-numbered"></i></div>
-                    <h5 class="text-center">Структурированный материал</h5>
-                    <div class="line"></div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-12">
-                    <div class="itd_circle"><i class="icon-rouble"></i></div>
-                    <h5 class="text-center">Cимволическая цена</h5>
-                    <div class="line"></div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-12">
-                    <div class="itd_circle"><i class="icon-chart-bar"></i></div>
-                    <h5 class="text-center">Пожизненный доступ</h5>
-                    <div class="line"></div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-12">
-                    <div class="itd_circle"><i class="icon-code"></i></div>
-                    <h5 class="text-center">Практические задания</h5>
-                    <div class="line"></div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-12">
-                    <div class="itd_circle"><i class="icon-file-video"></i></div>
-                    <h5 class="text-center">Видеоуроки</h5>
-                    <div class="line"></div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-12">
-                    <div class="itd_circle"><i class="icon-mobile"></i></div>
-                    <h5 class="text-center">Просмотр со смартфона</h5>
-                    <div class="line"></div>
-            </div>
+            <h2 class="text-center mb-4">О нас</h2>
+            <p class="text-center">Наше кафе — место, где еда и атмосфера делают ваш день лучше. Приходите за домашним уютом и вкуснейшими блюдами.</p>
         </div>
     </section>
 
-    <section class="forwhom">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="text-center text-uppercase color2 mb-5">Курс для тех, кто</h2>
+        <section id="menu" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Меню</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Блюдо 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Паста с соусом</h5>
+                                <p class="card-text">Свежая паста с томатным соусом и базиликом.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Блюдо 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Гамбургер</h5>
+                                <p class="card-text">Классический бургер с говядиной и картофелем фри.</p>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row mb-5">
-                <div class="col-md-6 col-sm-12">
-                    <h5 class="text-center">Хочет научиться создавать сайты своими усилиями</h5>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <h5 class="text-center">Учится современным инструментам разработки</h5>
-                </div>
-            </div>
-            <div class="row mb-5">
-                <div class="col-md-6 col-sm-12">
-                    <h5 class="text-center">Еще не знает язык HTML и CSS, но хочет выучить</h5>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <h5 class="text-center">Хочет стать крутым мастером и зарабатывать деньги</h5>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <a href="#footer" class="btn btn-lg text-uppercase btn-itd">Заказать</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
+        </section>
 
-    <footer id="footer">
-    
-    </footer>
 
-    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-        <div class="modal-dialog"> 
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Видеоурок</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <section id="gallery" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Галерея</h2>
+                <div class="row gallery">
+                    <div class="col-md-4 mb-4"><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Фото кафе"></div>
+                    <div class="col-md-4 mb-4"><img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=800&q=80" alt="Фото кафе"></div>
+                </div>
             </div>
-            <div class="modal-body">
-              ...
+        </section>
+
+        <section id="contact" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Контакты</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Имя</label>
+                        <input type="text" class="form-control" id="name" placeholder="Ваше имя">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ваш email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Сообщение</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Ваше сообщение"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </form>
             </div>
-          </div>
-        </div>
-    </div>
+        </section>
+
+        <footer class="py-4 bg-dark text-white text-center">
+            <div class="container">
+                <p>&copy; 2025 Мое Кафе. Все права защищены.</p>
+            </div>
+        </footer>
+
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    
 </body>
 </html>
